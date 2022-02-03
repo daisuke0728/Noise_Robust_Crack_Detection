@@ -1,5 +1,6 @@
 # Noise_Robust_Crack_Detection
 ノイズに対して頑健な コンクリートひび割れ検出
+※研究とは別に実施したものです
 
 ## タスク概要・背景
 
@@ -21,4 +22,14 @@ pandas=1.3.1
 matplotlib=3.4.2
 ```
 
-※研究とは別に実施したものです
+## 実行方法
+
+1. SDNET2018をダウンロード
+https://digitalcommons.usu.edu/all_datasets/48/
+
+2. 
+
+## Reference
+Dorafshan S, Thomas RJ, Maguire M. SDNET2018: An annotated image dataset for non-contact concrete crack detection using deep convolutional neural networks. Data Brief. 2018;21:1664-1668. Published 2018 Nov 6. doi:10.1016/j.dib.2018.11.015
+
+
