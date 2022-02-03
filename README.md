@@ -29,16 +29,20 @@ matplotlib=3.4.2
 https://digitalcommons.usu.edu/all_datasets/48/
 
 2. ベースラインの実行
-ノイズ無し
+- ノイズ無し
+
 `python ./main.py <data_dir of SDNET> ./result/original` 
 
-ノイズあり(ぼかし)
+- ノイズあり(ぼかし)
+
 `python ./main.py <data_dir of SDNET> ./result/blur_noise`
 
-ノイズあり(ガウスノイズ)
+- ノイズあり(ガウスノイズ)
+
 `python ./main.py <data_dir of SDNET> ./result/gaussian_noise`
 
-ノイズあり(ぼかし・ガウスノイズ)
+- ノイズあり(ぼかし・ガウスノイズ)
+
 `python ./main.py <data_dir of SDNET> ./result/blur_gaussian_noise` 
 
 ## Reference
