@@ -31,10 +31,13 @@ https://digitalcommons.usu.edu/all_datasets/48/
 2. ベースラインの実行
 ノイズ無し
 `python ./main.py <data_dir of SDNET> ./result/original` 
+
 ノイズあり(ぼかし)
 `python ./main.py <data_dir of SDNET> ./result/blur_noise`
+
 ノイズあり(ガウスノイズ)
 `python ./main.py <data_dir of SDNET> ./result/gaussian_noise`
+
 ノイズあり(ぼかし・ガウスノイズ)
 `python ./main.py <data_dir of SDNET> ./result/blur_gaussian_noise` 
 
